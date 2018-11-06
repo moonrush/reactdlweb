@@ -1,0 +1,123 @@
+@import '~antd/dist/antd.css';
+
+
+.ant-layout{
+    background-color: #fff;
+}
+
+.logo{
+    width: 120px;
+    height: 31px;
+    /* background: rgba(255,255,255,.2);   */
+    margin: 16px 28px 16px 0;
+    color:#fff;
+    line-height:31px;
+    float: left;
+}
+
+/* .ant-layout-sider-zero-width-trigger {
+    top: 10%;
+    right: -10px;
+    width: 10px;
+    height: 42px;
+    line-height: 42px;
+} */
+
+.cr_box{
+    width:100px;
+    height:100px;
+    background: red;
+    position: absolute;
+    top:150px;
+}
+.cr_left{
+    left:250px;
+}
+.cr_right{
+    right:100px;
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 300px;
+    line-height: 300px;
+    background: #6d84b1;
+    overflow: hidden;
+}
+
+.ant-carousel .slick-dots li button{
+    background: #000;
+}
+.ant-carousel .slick-dots li.slick-active button{
+    background: #000;
+}
+
+.tr-gutter{
+    display:flex;
+    width: 100%;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.tr-gutter li{
+    flex:1 1 50px;
+    border:1px solid #333;
+    border-right:0;
+    border-bottom:0;
+    text-align:center;
+    vertical-align: center;
+    line-height:32px;
+}
+.tr-gutter li:last-child,.tr-gutter li:nth-child(3n+3){
+    border-right:1px solid #333;
+}
+.tr-gutter:last-child li, .tr-gutter:nth-child(3n+3) li{
+    border-bottom: 1px solid #333;
+}
+.tr-gutter li input{
+    text-align:center;
+    color:#1890ff;
+    border: 0px solid #99f;
+}
+.tr-gutter li input.uncorrect{
+    border: 2px solid #f99;
+}
+.tr-gutter li input.correct{
+    border: 2px solid #9f9;
+}
+
+.col-card{
+    padding-right:10px;
+}
+
+.chatbox{
+    height:400px;
+    border:1px solid #d9d9d9;
+    background-color: #f1f1f1;
+    overflow-y:scroll;
+    padding:10px;
+}
+
+.chatbox .row-other .say{
+    margin-left:10px;
+    padding:10px;
+    background-color:#fff;
+    border-radius: 5px;
+    display:inline-block;
+}
+
+.chatbox .row-mine .say{
+    margin-right:10px;
+    padding:10px;
+    background-color:rgb(31, 212, 40);
+    border-radius: 5px;
+    display:inline-block;
+}
+
+.chatbox .row-mine div{
+    text-align: right;
+}
+
+.chatbox .row{
+    margin-top: 20px;
+}
